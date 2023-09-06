@@ -1,7 +1,8 @@
-body {
+h1 {
+  text-align: center;
 }
 
-h1 {
+h2 {
   text-align: center;
 }
 
@@ -13,8 +14,15 @@ strong em {
   color: red;
 }
 
+ul {
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+
 .apresentacao__beneficios {
-  background: white;
+  background: #FFFFFF;
+  padding: 20px;
 }
 
 .apresentacao__principal {
