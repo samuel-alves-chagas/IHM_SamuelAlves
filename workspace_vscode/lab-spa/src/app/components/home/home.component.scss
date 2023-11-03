@@ -1,0 +1,13 @@
+.home_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5vmax;
+  margin: 5vw;
+  border: 1px solid gray;
+}
+
+.home_item {
+  font-size: 1.25rem;
+  color: gray;
+}
