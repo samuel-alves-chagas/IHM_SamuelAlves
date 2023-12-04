@@ -8,9 +8,7 @@ import {Observable} from 'rxjs'
 })
 export class ProdutoService {
 
-  private readonly URI_PRODUTOS = "assets/exemplo-de-produtos.json"
-  // private readonly URI_PRODUTOS = "http://localhost:8081/produto"
-
+  private readonly URI_PRODUTOS = "http://localhost:8081/produto"
 
   constructor(private http: HttpClient) { }
 
